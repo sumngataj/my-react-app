@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.hover-effect {
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.hover-effect:hover {
+  color: yellow; /* Change this to the desired color on hover */
+}
